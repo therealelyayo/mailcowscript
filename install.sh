@@ -7,5 +7,5 @@ curl -L https://github.com/docker/compose/releases/download/$(curl -Ls https://w
 chmod +x /usr/local/bin/docker-compose
 cd /opt
 git clone https://github.com/mailcow/mailcow-dockerized
-cd /mailcow-dockerized
+cd mailcow-dockerized
 exit
