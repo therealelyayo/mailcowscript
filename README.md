@@ -20,6 +20,8 @@ apt update -y && apt install wget -y && wget https://raw.githubusercontent.com/t
 - Now in the mailcow folder finish off with {Use  **{mail.domain.tld}** as hostname when asked.} in next code.
 
 ```sh
+cd /opt
+cd mailcow-dockerized
 ./generate_config.sh
 	nano mailcow.conf
 	{OPTIONAL!! - Change configurationin **{mailcow.conf }** if you want or need to here before proceeding}
