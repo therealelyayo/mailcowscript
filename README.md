@@ -4,7 +4,7 @@
 | Name | Type  | Value |
 | ------ | ------ |------ |
 | mail | **A** | ipaddy |
-| autodiscover | **CNAME** | mail |
+| @ | **A** | ipaddy |
 | MX TO D@ OR HOSTNAME | **MX** | POINTS TO HOSTNAME |
 | autoconfig | **CNAME** | mail |
 | @ | **TXT** | v=spf1 mx -all |
