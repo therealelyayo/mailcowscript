@@ -9,7 +9,7 @@
 | autoconfig | **CNAME** | mail |
 | @ | **TXT** | v=spf1 mx -all |
 | dkim._domainkey | **TXT** | v=DKIM1; k=rsa; t=s; s=email; p={get-this-from-web-after-install-and-domain-add} |
-| _dmarc | **TXT** | v=DMARC1; p=reject; rua=mailto:mailauth-reports@example.org |
+| _dmarc | **TXT** | v=DMARC1; p=none; adkim=r; aspf=r |
 ---
 ### Installation
 - (assuming you have and telling you to have root permissions. )
