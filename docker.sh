@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-sudo apt install -y docker.io
-sudo apt install -y docker-compose-plugin
+sudo chmod +x /usr/local/bin/docker-compose
